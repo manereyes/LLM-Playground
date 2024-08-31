@@ -1,7 +1,10 @@
 
 # LLM Playground / Sandbox
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/92d0c438-6f83-4d51-96ef-617d2ca671fa" width="700" height="400">
+</p>
+  A simple project to learn the basics of LLM parameters, Prompt Engineering and LLM manipulation. The objetive of this project is to give developers a local playground to manipulate, play and test the different capabilities of their local LLMs.
 
-A simple project to learn the basics of LLM parameters, Prompt Engineering and LLM manipulation. The objetive of this project is to give developers a local playground to manipulate, play and test the different capabilities of their local LLMs.
 ## Authors
 
 - [Mane Reyes](https://github.com/thepurpleoni)
