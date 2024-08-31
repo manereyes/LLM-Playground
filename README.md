@@ -62,7 +62,16 @@ Once you clone the repo inside your directory and created the venv with all the 
   streamlit run main.py
 ```
 A brief explanation of the different parameters
-- **Model** : Here you select the LLM model, since the models run locally, you will need to change the values of the st.selectbox deppending of the ones you have installed.
+- **Model** : Here you select the LLM model, since the models run locally, you will need to change the values of the st.selectbox insisde main.py deppending of the ones you have installed.
+```python
+### SIDE BAR ###
+with st.sidebar:
+    st.subheader("LLM model")
+    model = st.selectbox(
+        "Select a model",
+        ("llama3.1","mistral") # Change this depending of your Local LLMs
+    )
+```
 - **Temperature** : The temperature of the model. Increasing the temperature will make the model answer more creatively.
 - **System Prompt** : Give the LLM a context, a role to do, explain "who" is him and "what" is going to do.
 - **User** : Give the LLM a task based on the context you gave to it in the System Prompt.
