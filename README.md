@@ -9,7 +9,7 @@ A simple project to learn the basics of LLM parameters, Prompt Engineering and L
 - **Made** with [Python 3](https://www.python.org/) 🐍.
 - **Built** with [Langchain](https://www.langchain.com/) 🦜🔗.
 - **Used** [Streamlit](https://docs.streamlit.io/) 👑 for UI and interaction.
-- **Hosted locally** with [Ollama](https://ollama.com/) 🦙.
+- **LLM** controlled locally with [Ollama](https://ollama.com/) 🦙.
 
 
 
